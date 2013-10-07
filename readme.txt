@@ -1,5 +1,5 @@
-Menu as Tree Structure
-======================
+Menu as a Tree Structure
+========================
 
 
 - base implementation for tree menu listing

@@ -13,10 +13,10 @@ common:
 
 	dibi:
 		drive: mysqli
-		host: wm42.wedos.net
-		username: w18105_xmenu
-		password: 8dgN69DG
-		database: d18105_xmenu
+		host: 
+		username: 
+		password: 
+		database: 
 		lazy: TRUE
 
 	nette:
