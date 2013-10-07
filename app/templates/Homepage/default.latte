@@ -1,0 +1,32 @@
+{block content}
+
+<div id="page">
+
+<h1>Stromová struktura</h1>
+
+<div id="table">
+<div id="left-menu">
+
+
+{block #menu}
+	{foreach $menu as $item}
+		{if $item != NULL}
+				{if is_array($item)}
+				<ul>
+					{include #menu, menu => $item}
+				{else}
+					<li id="item{$item['id']}">{$item['title']}</li>
+				{/if}
+		{/if}
+	{/foreach}
+</ul>
+{/block}
+
+
+</div>	<!-- /left-menu -->
+</div>	<!-- /table -->
+
+
+</div>	<!-- /page -->
+
+{/block}
